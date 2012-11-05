@@ -1,0 +1,4 @@
+0 5 * * 1-5 perl /home/mark/stockquotes/AMEXsymbolgetter.pl
+1 5 * * 1-5 perl /home/mark/stockquotes/NASDAQsymbolgetter.pl
+2 5 * * 1-5 perl /home/mark/stockquotes/NYSEsymbolgetter.pl
+*/10 6-14 * * 1-5 perl /home/mark/stockquotes/triplestockquotesgetter.pl
